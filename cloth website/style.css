@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+}
+
+
+.hader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* position:fixed; */
+    background-color: rgba(255, 255, 255, 0.881);
+    z-index: 999;
+}
+.logo img{
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 127px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+    gap: 50px;
+    font-size: 18px;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.bg-1{
+    width: 100%;
+    height: 75vh;
+    background-image:url(./img/5_1920x594.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.poster-tex h1{
+    position: absolute;
+    top:30%;
+    left: 12%;
+    line-height: 38px;
+    color: #c28447;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.poster-tex h6{
+    position: absolute;
+    top:23%;
+    left: 12%;
+    letter-spacing: 6px; 
+    font-size: 12px; 
+    word-spacing: 5px; 
+}
+.poster-tex p{
+    position: absolute;
+    top:42%;
+    left: 12%;
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    white-space: 5px;
+    color: rgba(255, 0, 0, 0.521);
+}
+.poster-tex h5{
+    position: absolute;
+    top:55%;
+    left: 12%;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+.poster-tex .btn{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top:68%;
+    left: 12%;
+}
+.poster-tex .btn:hover{
+    background:#f372c1b8;
+    transition: all 0.5s ease;
+    border: none;
+}
+.bg-2{
+    /* width: 90%; */
+    display: flex;
+    justify-content:space-evenly;
+    padding: 60px;
+}
+.baner{
+    width: 350px;
+    height: 150px;
+    border: 2px dotted rgba(0, 0, 0, 0.576);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.baner p{
+    text-align: center;
+    font-weight: 900;
+}
+.baner h6{
+    text-align: center;
+    line-height: 20px;
+    font-weight: 100;
+    font-size: 13px;
+}
+.baner img{
+    width: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    text-align: center;
+  padding-top: 60px;
+  line-height: 35px;
+}
+.title h1{
+    letter-spacing: 3px;
+    color: #f372c2cc;
+    font-weight: 900;
+    font-size: 35px;
+}
+.title p{
+    font-size: 13px;
+}
+.product-1{
+    text-align: center;
+    position: relative;
+}
+.product-1 img{
+    width: 78%;
+    padding-top: 55px;
+    position: relative;
+}
+
+.product{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.product-1 p{
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.demopic{
+    display: flex;
+    padding-left: 183px;
+    padding-top: 130px;
+}
+.sell{
+    position: relative;
+}
+.sell-sub{
+    width: 48px;
+    height: 18px;
+    background-color: #f372c2cc;
+    position: absolute;
+    left: 72%;
+    top: 59px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.baner-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.four-d{
+    display: flex;
+    position: relative;
+    justify-content:space-evenly;
+}
+.time{
+    
+}
+.date{
+    width: 50px;
+    height: 45px;
+    background-color: #c28447;
+    position: absolute;
+    top: 87px;
+    left: 21%;
+    text-align: center;
+    color: white;
+}
+
+.girlposter img{
+    padding-top: 60px;
+    width: 260px;
+}
+.tex{
+    width: 260px;
+    text-align: start;
+    font-size: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 22px;
+    font-weight: 100;
+}
+.bg-9{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 60px;
+}
+.futer-sub{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+.foter-sem ul{
+    list-style: none;
+    line-height: 40px;
+   
+}
+.foter-sem{
+    line-height: 35px;
+}
+.foter-sem .coman{
+    padding: 8px;
+    border-radius: 18px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.foter-sem input{
+    height: 30px;
+    padding: 20px;
+}
+.foter-sem .home{
+    padding-right: 20px;
+    font-size: 14px;
+}
